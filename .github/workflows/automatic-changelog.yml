@@ -18,7 +18,7 @@ jobs:
 
       - name: Get last edit time of docs/updates.txt
         run: |
-          last_edit_time=$(git log -1 --format=%cI -- docs/updates.txt)
+          last_edit_time=$(git log -1 --pretty="format:%cI" docs/updates.txt)
           echo "Last edit time: $last_edit_time"
           echo "LAST_EDIT_TIME=$last_edit_time" >> $GITHUB_ENV
 
@@ -32,10 +32,10 @@ jobs:
         run: |
           if [ -s log_output.txt ]; then
             echo "LOG_OUTPUT=$(cat log_output.txt)" >> $GITHUB_ENV
-            echo "continue=true" >> $GITHUB_ENV
+            echo "NEW_COMMITS=true" >> $GITHUB_ENV
           else
             echo "No new commits since the last update of docs/updates.txt."
-            echo "continue=false" >> $GITHUB_ENV
+            echo "NEW_COMMITS=false" >> $GITHUB_ENV
           fi
 
       - name: Run update script
