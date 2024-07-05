@@ -1,3 +1,6 @@
+# 2024-07-05 15:46
+- [fix(changelog): workflow id](https://github.com/TRaSH-Guides/Guides/pull/)
+
 # 2024-06-15 22:00
 - [feat(guides): Add hallowed to (U)HD Bluray Tier 03 and create new hallowed Radarr custom format (#1978)](https://github.com/TRaSH-Guides/Guides/pull/1978)
 
