@@ -19,6 +19,3 @@ formatted_output+="\n"
     echo -e "$formatted_output"
     cat "$output_file"
 } > "${output_file}.tmp" && mv "${output_file}.tmp" "$output_file"
-
-# Inform the user
-echo "Output prepended to $output_file"
