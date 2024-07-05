@@ -19,9 +19,8 @@ jobs:
       - name: Get last completed workflow run date and time
         run: |
           repo="${{ github.repository }}"
-          workflow_id="${{ github.workflow }}"
           token="${{ secrets.GITHUB_TOKEN }}"
-          api_url="https://api.github.com/repos/$repo/actions/workflows/$workflow_id/runs?status=completed&per_page=1"
+          api_url="https://api.github.com/repos/$repo/actions/workflows/automatic-changelog.yml/runs?status=completed&per_page=1"
           response=$(curl -s -H "Authorization: token $token" "$api_url")
           last_run_time=$(echo "$response" | jq -r '.workflow_runs[0].updated_at')
           echo "Last completed run time: $last_run_time"
