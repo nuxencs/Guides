@@ -14,7 +14,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.6
+        with:
+          fetch-depth: 0
 
       - name: Get last edit time of docs/updates.txt
         run: |
