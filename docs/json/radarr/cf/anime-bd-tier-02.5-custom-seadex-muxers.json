@@ -25,6 +25,15 @@
       }
     },
     {
+      "name": "Seicher",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Seicher(?!-Raws))\\b"
+      }
+    },
+    {
       "name": "Some-Stuffs",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -35,4 +44,3 @@
     }
   ]
 }
-
