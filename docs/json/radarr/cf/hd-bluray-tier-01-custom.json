@@ -1,0 +1,48 @@
+{
+  "trash_id": "561aba977e9f28e5f3ecf7a9bb7fe849",
+  "trash_scores": {
+    "default": 1800,
+    "sqp-1-1080p": 1100,
+    "sqp-1-2160p": 1100
+  },
+  "name": "HD Bluray Tier 01 (Custom)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 9
+      }
+    },
+    {
+      "name": "Not REMUX",
+      "implementation": "QualityModifierSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "Not 2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    },
+    {
+      "name": "ZoroSenpai",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ZoroSenpai)$"
+      }
+    }
+  ]
+}
