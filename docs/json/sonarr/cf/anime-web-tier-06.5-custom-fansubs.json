@@ -133,6 +133,15 @@
       }
     },
     {
+      "name": "RaiN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[RaiN\\]|-RaiN\\b"
+      }
+    },
+    {
       "name": "scoot",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,

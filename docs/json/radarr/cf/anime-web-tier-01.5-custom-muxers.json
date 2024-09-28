@@ -25,6 +25,15 @@
       }
     },
     {
+      "name": "DemiHuman",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[DemiHuman\\]|-DemiHuman\\b"
+      }
+    },
+    {
       "name": "GLORY",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
