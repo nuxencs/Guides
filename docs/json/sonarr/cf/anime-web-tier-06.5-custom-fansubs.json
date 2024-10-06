@@ -151,6 +151,15 @@
       }
     },
     {
+      "name": "Ryuu",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[Ryuu\\]|-Ryuu\\b"
+      }
+    },
+    {
       "name": "scoot",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
