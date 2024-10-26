@@ -34,6 +34,15 @@
       }
     },
     {
+      "name": "koala",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[koala\\]|-koala\\b"
+      }
+    },
+    {
       "name": "Seicher",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
