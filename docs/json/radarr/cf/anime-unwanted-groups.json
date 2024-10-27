@@ -41,15 +41,6 @@
       "fields": {
         "value": "\\b(iAHD)\\b"
       }
-    },
-    {
-      "name": "LostYears",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(LostYears)\\b"
-      }
     }
   ]
 }
