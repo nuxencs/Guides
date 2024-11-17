@@ -41,6 +41,15 @@
       "fields": {
         "value": "\\b(iAHD)\\b"
       }
+    },
+    {
+      "name": "ZigZag",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(ZigZag)\\b"
+      }
     }
   ]
 }
