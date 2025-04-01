@@ -9,6 +9,24 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
+      "name": "BLURAY",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 9
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
       "name": "Not REMUX",
       "implementation": "QualityModifierSpecification",
       "negate": true,
@@ -18,12 +36,12 @@
       }
     },
     {
-      "name": "Not 2160p",
+      "name": "1080p",
       "implementation": "ResolutionSpecification",
-      "negate": true,
+      "negate": false,
       "required": true,
       "fields": {
-        "value": 2160
+        "value": 1080
       }
     },
     {
