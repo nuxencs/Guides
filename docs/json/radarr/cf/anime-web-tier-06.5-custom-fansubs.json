@@ -61,15 +61,6 @@
       }
     },
     {
-      "name": "Half-Baked",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\[Half-Baked\\]|-Half-Baked\\b"
-      }
-    },
-    {
       "name": "inid4c",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
