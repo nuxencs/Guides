@@ -1,22 +1,11 @@
 {
-  "trash_id": "b19ee2bb3adce42905d0675ff5a56301",
+  "trash_id": "ef0288587754265992d9fd7ed67070a3",
   "trash_scores": {
-    "default": 1800,
-    "sqp-1-1080p": 1100,
-    "sqp-1-2160p": 1100
+    "default": 100
   },
-  "name": "HD Encode Tier 01 (Custom)",
+  "name": "ZoroSenpai (WEBRIP)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
-    {
-      "name": "BLURAY",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 9
-      }
-    },
     {
       "name": "WEBRIP",
       "implementation": "SourceSpecification",
@@ -24,15 +13,6 @@
       "required": false,
       "fields": {
         "value": 8
-      }
-    },
-    {
-      "name": "Not REMUX",
-      "implementation": "QualityModifierSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": 5
       }
     },
     {
