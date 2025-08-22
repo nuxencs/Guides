@@ -1,3 +1,17 @@
+# 2025-08-17 00:29
+- [chore(misc): improve Renovate configuration with PR method and smart dependency grouping](https://github.com/TRaSH-Guides/Guides/pull/2457)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+- [fix(gha): exclude ImgBotApp](https://github.com/TRaSH-Guides/Guides/pull/)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+- [fix(gha): add missing token for contributors](https://github.com/TRaSH-Guides/Guides/pull/)
+- [chore(gha): update contributors and remove complexity](https://github.com/TRaSH-Guides/Guides/pull/2449)
+
+# 2025-08-10 00:30
+- [feat(starr): Update scene](https://github.com/TRaSH-Guides/Guides/pull/2447)
+
+# 2025-08-03 00:31
+- [fix(config): allow renovate to migrate its own config](https://github.com/TRaSH-Guides/Guides/pull/2441)
+
 # 2025-07-27 00:31
 - [fix(guide-sync): Updated Radarr Optional Misc custom format group HFR ID to match Radarr custom format HFR ID](https://github.com/TRaSH-Guides/Guides/pull/2442)
 - [feat(guide): Add D3US to `lq-release-title.json`](https://github.com/TRaSH-Guides/Guides/pull/2439)
